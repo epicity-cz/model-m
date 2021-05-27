@@ -3,22 +3,29 @@ Covid-19 epidemic model on realistic social network
 
 ### Authors:
 **Luděk Berec**, *Centre for Modelling of Biological and Social Processes, Centre for Mathematical Biology, Institute of Mathematics, Faculty of Science, University of South Bohemia and  Czech  Academy  of  Sciences,  Biology  Centre,  Institute  of  Entomology* <br>
-**Tomáš Diviák**, *Centre for Modelling of Biological and Social Processes and Department of Criminology and Mitchell Centre for Social Network Analysis, School of Social Sciences, University of Manchester* <br> 
+**Cyril Brom\***, *Faculty of Mathematics and Physics,  Charles University* <br>
+**Tomáš Diviák\***, *Centre for Modelling of Biological and Social Processes and Department of Criminology and Mitchell Centre for Social Network Analysis, School of Social Sciences, University of Manchester* <br>
+**Jakub Drbohlav\***, *Centre for Modelling of Biological and Social Processes* <br>
+**Václav Korbel\***, *CERGE-EI* <br>
 **Aleš Kuběna**, *Centre for Modelling of Biological and Social Processes and The Czech Academy of Sciences, Institute of Information Theory and Automation* <br>
-**René Levinský**, *Centre for Modelling of Biological and Social Processes and CERGE-EI* <br>
-**Roman Neruda**, *Centre for Modelling of Biological and Social Processes and The Czech Academy of Sciences, Institute of Computer Science* <br>
-**Gabriela Suchopárová**, *Centre for Modelling of Biological and Social Processes and The Czech Academy of Sciences, Institute of Computer Science* <br>
-**Josef Šlerka**, *Centre for Modelling of Biological and Social Processes and New Media Studies, Faculty of Arts, Charles University* <br>
-**Martin Šmíd**, *Centre for Modelling of Biological and Social Processes and The Czech Academy of Sciences, Institute of Information Theory and Automation* <br> 
-**Jan Trnka**, *Centre for Modelling of Biological and Social Processes and Department of Biochemistry, Cell and Molecular Biology, Third Faculty of Medicine, Charles University* <br> 
+**René Levinský\***, *Centre for Modelling of Biological and Social Processes and CERGE-EI* <br>
+**Roman Neruda\***, *Centre for Modelling of Biological and Social Processes and The Czech Academy of Sciences, Institute of Computer Science* <br>
+**Gabriela Suchopárová\***, *Centre for Modelling of Biological and Social Processes and The Czech Academy of Sciences, Institute of Computer Science* <br>
+**Josef Šlerka\***, *Centre for Modelling of Biological and Social Processes and New Media Studies, Faculty of Arts, Charles University* <br>
+**Martin Šmíd\***, *Centre for Modelling of Biological and Social Processes and The Czech Academy of Sciences, Institute of Information Theory and Automation* <br> 
+**Jan Trnka\***, *Centre for Modelling of Biological and Social Processes and Department of Biochemistry, Cell and Molecular Biology, Third Faculty of Medicine, Charles University* <br> 
 **Vít Tuček**, *Centre for Modelling of Biological and Social Processes and Department of Mathematics, University of Zagreb* <br> 
-**Petra Vidnerová**, *Centre for Modelling of Biological and Social Processes and The Czech Academy of Sciences, Institute of Computer Science* <br> 
+**Petra Vidnerová\***, *Centre for Modelling of Biological and Social Processes and The Czech Academy of Sciences, Institute of Computer Science* <br> 
 **Karel Vrbenský**, *Centre for Modelling of Biological and Social Processes and The Czech Academy of Sciences, Institute of Information Theory and Automation* <br> 
 **Milan Zajíček**, *Centre for Modelling of Biological and Social Processes and The Czech Academy of Sciences, Institute of Information Theory and Automation* <br>
 **František Zapletal**, *The Czech Academy of Sciences, Institute of Information Theory and Automation* <br> 
 
+\* authors that contributed to the schools release and paper.
+
 ### Acknowledgement: 
-The work has been supported by the "City for People, Not for Virus" project No. TL04000282 of the Technology Agency of the Czech Republic.
+This work was supported by the European Regional Development Fund-Project "Creativity and Adaptability as Conditions of the Success of Europe in an Interrelated World" (No. CZ.02.1.01/0.0/0.0/16019/0000734) and by the  "City for People, Not for Virus" project No. TL04000282 of the Technology Agency of the Czech Republic. We would like to thank Eva Blechová for insightful suggestions. We highly appreciate the help of Helena Patáková with data collection and to Jan Žák with data collection and anonymization.
+
+
 
 ### How to cite:
 
