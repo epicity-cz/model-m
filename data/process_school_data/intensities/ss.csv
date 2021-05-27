@@ -1,0 +1,59 @@
+id,name,weight,intensity
+0,no_layer,0,
+1,prestavka,1,closerandomcontact
+2,mimo_skolu,1,(closelongtermcontact+closeopenair+closerandomcontact)/3
+3,lavice_hlavni,1,closelongtermcontact
+4,lavice_trida,1,closelongtermcontact
+5,obed,1,dininingcontact
+6,prestavka_jine,1,closelongtermcontact
+7,mimo_jine,1,(closelongtermcontact+closeopenair+closerandomcontact)/4
+8,obed_jine,1,dininingcontact
+9,kabinet,1,(closerandomcontact*4+closelongtermcontact)/5
+10,v_praci,1,closerandomcontact
+11,mimo_praci,1,(closelongtermcontact+closeopenair+closerandomcontact)/3
+12,pedagog1B,1,distantlongtermcontact
+13,pedagog1C,1,distantlongtermcontact
+14,pedagog1K,1,distantlongtermcontact
+15,pedagog1L,1,distantlongtermcontact
+16,pedagog2A,1,distantlongtermcontact
+17,pedagog2B,1,distantlongtermcontact
+18,pedagog2C,1,distantlongtermcontact
+19,pedagog2K,1,distantlongtermcontact
+20,pedagog2L,1,distantlongtermcontact
+21,pedagog3A,1,distantlongtermcontact
+22,pedagog3B,1,distantlongtermcontact
+23,pedagog3C,1,distantlongtermcontact
+24,pedagog3K,1,distantlongtermcontact
+25,pedagog3L,1,distantlongtermcontact
+26,pedagog4A,1,distantlongtermcontact
+27,pedagog4B,1,distantlongtermcontact
+28,pedagog4C,1,distantlongtermcontact
+29,pedagog4K,1,distantlongtermcontact
+30,pedagog4L,1,distantlongtermcontact
+31,pedagog1A,1,distantlongtermcontact
+32,Mediální dům,1,closerandomcontact
+33,"Audio studio – nahrávání, hudební zkušebna",1,closerandomcontact
+34,Studentský klub,1,closerandomcontact
+35,Projekty učebny 28,1,closerandomcontact
+36,Studio 301,1,closerandomcontact
+37,Projekty chytrý dům,1,closerandomcontact
+38,1A,1,closerandomcontact
+39,1B,1,closerandomcontact
+40,1C,1,closerandomcontact
+41,1K,1,closerandomcontact
+42,1L,1,closerandomcontact
+43,2A,1,closerandomcontact
+44,2B,1,closerandomcontact
+45,2C,1,closerandomcontact
+46,2K,1,closerandomcontact
+47,2L,1,closerandomcontact
+48,3A,1,closerandomcontact
+49,3B,1,closerandomcontact
+50,3C,1,closerandomcontact
+51,3K,1,closerandomcontact
+52,3L,1,closerandomcontact
+53,4A,1,closerandomcontact
+54,4B,1,closerandomcontact
+55,4C,1,closerandomcontact
+56,4K,1,closerandomcontact
+57,4L,1,closerandomcontact

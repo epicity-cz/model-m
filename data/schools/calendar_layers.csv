@@ -1,0 +1,73 @@
+id,name,1
+0,no_layer,0.0
+1,prestavka,1.0
+2,obed,1.0
+3,druzina,1.0
+4,lavice_hlavni,1.0
+5,mimo_skolu,1.0
+6,mimo_jine,1.0
+7,lavice_trida,1.0
+8,prestavka_jine,1.0
+9,lavice_jine,1.0
+10,kabinet,1.0
+11,v_praci,1.0
+12,mimo_praci,1.0
+13,pedagog1A,1.0
+14,pedagog1B,1.0
+15,pedagog1C,1.0
+16,pedagog2A,1.0
+17,pedagog2B,1.0
+18,pedagog2C,1.0
+19,pedagog3A,1.0
+20,pedagog3B,1.0
+21,pedagog4A,1.0
+22,pedagog4B,1.0
+23,pedagog5A,1.0
+24,pedagog6A,1.0
+25,pedagog6B,1.0
+26,pedagog6C,1.0
+27,pedagog7A,1.0
+28,pedagog7B,1.0
+29,pedagog7C,1.0
+30,pedagog8A,1.0
+31,pedagog8B,1.0
+32,pedagog8C,1.0
+33,pedagog9A,1.0
+34,pedagog9B,1.0
+35,asistent_trida1A,1.0
+36,asistent_trida5A,1.0
+37,pedagog3C,1.0
+38,pedagog4C,1.0
+39,pedagog5B,1.0
+40,pedagog5C,1.0
+41,Atletika,0.0
+42,Basketbal,0.0
+43,Bricks 4 kidz,0.0
+44,Dílnička pro holky,0.0
+45,Florbal,0.0
+46,Fotbal,0.0
+47,Hollywood Club,0.0
+48,Inline bruslení,0.0
+49,Keramika,0.0
+50,Kroužky Toscool anglický jazyk,0.0
+51,Kutilská dílna,0.0
+52,Kytarový kroužek,0.0
+53,Latinskoamerické a standardní tance,0.0
+54,Malý kuchtík,0.0
+55,Origami,0.0
+56,Pěstitelské práce,0.0
+57,Počítačová grafika,0.0
+58,Pohybový kroužek,0.0
+59,Primavera (taneční kroužek),0.0
+60,Příprava k přijímacím zkouškám na SŠ - český jazyk,0.0
+61,Příprava k přijímacím zkouškám na SŠ - matematika,0.0
+62,Ragby,0.0
+63,Šachový kroužek,0.0
+64,Školní klub,0.0
+65,Sborový zpěv,0.0
+66,Taekwon-do,0.0
+67,Umělecká Výtvarná Výchova,0.0
+68,Vaření,0.0
+69,Věda nás baví,0.0
+70,Vědecké pokusy,0.0
+71,Volejbal,0.0

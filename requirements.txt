@@ -1,0 +1,11 @@
+numpy
+numpy_indexed
+scipy
+pandas
+matplotlib
+seaborn
+scikit-learn
+click
+networkx
+sklearn
+cma

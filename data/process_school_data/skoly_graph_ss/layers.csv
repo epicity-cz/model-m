@@ -1,0 +1,59 @@
+id,name,weight
+0,no_layer,0.0
+1,prestavka,1.0
+2,mimo_skolu,1.0
+3,lavice_hlavni,1.0
+4,lavice_trida,1.0
+5,obed,1.0
+6,prestavka_jine,1.0
+7,mimo_jine,1.0
+8,obed_jine,1.0
+9,kabinet,1.0
+10,v_praci,1.0
+11,mimo_praci,1.0
+12,pedagog1B,1.0
+13,pedagog1C,1.0
+14,pedagog1K,1.0
+15,pedagog1L,1.0
+16,pedagog2A,1.0
+17,pedagog2B,1.0
+18,pedagog2C,1.0
+19,pedagog2K,1.0
+20,pedagog2L,1.0
+21,pedagog3A,1.0
+22,pedagog3B,1.0
+23,pedagog3C,1.0
+24,pedagog3K,1.0
+25,pedagog3L,1.0
+26,pedagog4A,1.0
+27,pedagog4B,1.0
+28,pedagog4C,1.0
+29,pedagog4K,1.0
+30,pedagog4L,1.0
+31,pedagog1A,1.0
+32,Mediální dům,1.0
+33,"Audio studio – nahrávání, hudební zkušebna",1.0
+34,Studentský klub,1.0
+35,Projekty učebny 28,1.0
+36,Studio 301,1.0
+37,Projekty chytrý dům,1.0
+38,1A,1.0
+39,1B,1.0
+40,1C,1.0
+41,1K,1.0
+42,1L,1.0
+43,2A,1.0
+44,2B,1.0
+45,2C,1.0
+46,2K,1.0
+47,2L,1.0
+48,3A,1.0
+49,3B,1.0
+50,3C,1.0
+51,3K,1.0
+52,3L,1.0
+53,4A,1.0
+54,4B,1.0
+55,4C,1.0
+56,4K,1.0
+57,4L,1.0

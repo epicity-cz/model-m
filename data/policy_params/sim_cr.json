@@ -1,0 +1,4 @@
+{
+ "2": [["start", "wee_cold_sim:WeeColdPolicy"]],
+ "5": [["start", "contact_tracing:CRLikePolicy"]]
+}
