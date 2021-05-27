@@ -27,32 +27,6 @@ This work was supported by the European Regional Development Fund-Project "Creat
 
 
 
-### How to cite:
-
-If you would like to refer to this software in a publication, please cite the following paper preprint on medrXiv: 
-
-Model-M: An agent-based epidemic model of a middle-sized municipality <br>
-Ludek Berec, Tomas Diviak, Ales Kubena, Rene Levinsky, Roman Neruda, Gabriela Suchoparova, Josef Slerka, 
-Martin Smid, Jan Trnka, Vit Tucek, Petra Vidnerova, Milan Zajicek, Frantisek Zapletal <br>
-medRxiv 2021.05.13.21257139; doi: https://doi.org/10.1101/2021.05.13.21257139
-
-```
-@article {Berec2021.05.13.21257139,
-	author = {Berec, Ludek and Diviak, Tomas and Kubena, Ales and Levinsky, Rene and Neruda, Roman 
-  and Suchoparova, Gabriela and Slerka, Josef and Smid,  Martin and Trnka, Jan and Tucek, Vit 
-  and Vidnerova, Petra and Zajicek, Milan and Zapletal, Frantisek},
-	title = {Model-M: An agent-based epidemic model of a middle-sized municipality},
-	elocation-id = {2021.05.13.21257139},
-	year = {2021},
-	doi = {10.1101/2021.05.13.21257139},
-	publisher = {Cold Spring Harbor Laboratory Press},
-	URL = {https://www.medrxiv.org/content/10.1101/2021.05.13.21257139v1},
-	eprint = {https://www.medrxiv.org/content/10.1101/2021.05.13.21257139v1.full.pdf},
-	journal = {medRxiv}
-}
-
-```
-
 ## Requirements 
 
 Install them:
