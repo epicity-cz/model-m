@@ -1,0 +1,63 @@
+[TASK]
+duration_in_days = 100
+print_interval = 1
+verbose = Yes
+model = SimulationDrivenModel
+save_node_states = No
+
+[GRAPH]
+type = pickle
+file = papertown.pickle
+
+[POLICY]
+filename = customised_policy
+name = CustomPolicy
+
+[POLICY_SETUP]
+layer_changes_filename = ../config/policy_params/wasabi.csv
+#policy_calendar_filename = ../config/policy_params/sim_cr.json
+beta_factor_filename = ../config/policy_params/beta_factor.csv
+face_masks_filename = ../config/policy_params/masks.csv
+#theta_filename = ../config/policy_params/tety.csv
+#test_rate_filename = ../config/policy_params/test_new2.csv
+#init_filename = ../config/policy_params/init_october.json
+reduction_coef1=0.25
+reduction_coef2=0.75
+new_beta=Yes
+sub_policies = self_isolation, contact_tracing
+self_isolation_filename = wee_cold_sim
+self_isolation_name = WeeColdPolicy
+contact_tracing_filename = contact_tracing
+contact_tracing_name = CRLikePolicy
+
+[MODEL]
+start_day = 185
+durations_file=../config/duration_probs.json
+prob_death_file=../data/prob_death.csv
+beta=1.0
+beta_reduction=1.0
+beta_in_family=1.0
+beta_A=0.50000000000000000000
+beta_A_in_family=0.50000000000000000000
+mu=0.85
+p=0.00
+theta_E=0.0
+theta_Ia=0.0
+#theta_Is=0.76
+theta_Is=0.2
+theta_In=0.0
+test_rate=0.65
+psi_E=1
+psi_Ia=1
+psi_Is=1
+psi_In=1
+q=0
+false_symptoms_rate=0.0002999550045
+false_symptoms_recovery_rate=0.166247081924819
+asymptomatic_rate=0.179
+init_E=80
+init_I_n = 0
+init_I_a = 0
+init_I_s = 0
+init_R = 215
+init_D = 2

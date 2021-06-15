@@ -1,0 +1,7 @@
+{
+  "method": "GridSearch",
+  "MODEL": {
+    "beta": 0.54,
+    "beta_reduction": 0.38
+  },
+}

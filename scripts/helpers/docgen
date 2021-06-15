@@ -1,0 +1,6 @@
+#!/bin/bash
+scripts/helpers/gendoc.py src >doc/gen_graph/gen.puml
+rm doc/gen_graph/gen.svg
+plantuml doc/gen_graph/gen.puml -tsvg doc/gen_graph/gen.svg
+export PYTHONPATH=src/gen_graph
+pydeps --config doc/gen_graph/.pydeps scripts/generate.py -o doc/gen_graph/file_deps.svg

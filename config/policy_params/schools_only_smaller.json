@@ -1,0 +1,4 @@
+{
+    "1": [["start", "school_quarantine:SchoolQuarantine:../data/policy_params/schools.ini"]], 
+    "2": [["start", "wee_cold_sim:WeeColdPolicy"]]
+}
