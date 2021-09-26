@@ -1,0 +1,18 @@
+{
+  "method": "CMA-ES",
+  "description": "Contains initial hyperparam values for cma-es search and algorithm config (see pycma docs).",
+  "MODEL": {
+    "beta": 0.05,
+    "a_reduction": 0.7
+  },
+  "param_ranges" : {
+      "beta": [0.001, 0.1],
+      "a_reduction": [0.5, 1.0],
+      "policy_reduction_coef1": [0.25, 0.5]
+  },
+  "SIGMA": 2.0,
+  "CMA": {
+      "maxfevals": 100000,
+      "popsize": 30
+  }
+}

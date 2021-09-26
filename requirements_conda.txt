@@ -1,0 +1,15 @@
+numpy
+scipy
+pandas
+matplotlib
+seaborn
+scikit-learn
+click
+networkx
+numexpr
+pyarrow
+urllib3
+pytest
+pytest-xdist
+pytest-mock
+GDAL

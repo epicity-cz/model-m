@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="669px" preserveAspectRatio="none" style="width:979px;height:669px;background:#FFFFFF;" version="1.1" viewBox="0 0 979 669" width="979px" zoomAndPan="magnify"><defs/><g><!--MD5=[efe2e94f53d1d78f53bf16f1b57dd792]
+cluster static--><rect fill="#FFFFFF" height="425.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="206" x="7" y="49.26"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="75" x="72.5" y="68.364">Static files</text><!--MD5=[2935867637cacd875d5d07ed00942c0d]
+cluster graph_file--><rect fill="#FFFFFF" height="114" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="483" x="490" y="549.76"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="81" x="691" y="568.864">Graph files</text><!--MD5=[bd066dadaa5bc947ba562625582b82c6]
+entity households--><rect fill="#1168BD" height="41.792" style="stroke:#3C7FC0;stroke-width:1.5;" width="133" x="36.5" y="97.26"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="113" x="46.5" y="124.364">households.csv</text><!--MD5=[5eef1e5178784fe78a4f776bd32fa857]
+entity pois--><rect fill="#1168BD" height="41.792" style="stroke:#3C7FC0;stroke-width:1.5;" width="126" x="41" y="245.76"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="106" x="51" y="272.864">pois_cz_loc.csv</text><!--MD5=[49e33dd00c05bd052c23c139d047bf9d]
+entity schools--><rect fill="#1168BD" height="41.792" style="stroke:#3C7FC0;stroke-width:1.5;" width="150" x="31" y="408.76"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="130" x="41" y="435.864">schools_cz_loc.csv</text><!--MD5=[e32773a0da76c445e84e5885468a4484]
+entity e--><rect fill="#1168BD" height="41.792" style="stroke:#3C7FC0;stroke-width:1.5;" width="57" x="891.5" y="597.76"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="37" x="901.5" y="624.864">e.csv</text><!--MD5=[be5750da26e06623bc49653cefaf97c7]
+entity p--><rect fill="#1168BD" height="41.792" style="stroke:#3C7FC0;stroke-width:1.5;" width="58" x="798" y="597.76"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="38" x="808" y="624.864">p.csv</text><!--MD5=[ec040a3b6721d23dc1d22b0d8ac7f4cc]
+entity edges--><rect fill="#1168BD" height="41.792" style="stroke:#3C7FC0;stroke-width:1.5;" width="93" x="669.5" y="597.76"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="73" x="679.5" y="624.864">edges.csv</text><!--MD5=[61c11a05a9a2460546f52bc2f53e6106]
+entity objects--><rect fill="#1168BD" height="41.792" style="stroke:#3C7FC0;stroke-width:1.5;" width="101" x="533.5" y="597.76"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="81" x="543.5" y="624.864">objects.csv</text><!--MD5=[31c37d3a0d85ffe4cdaabcf32030eb9f]
+entity ruian--><rect fill="#1168BD" height="98.9958" style="stroke:#3C7FC0;stroke-width:1.5;" width="318" x="240" y="68.76"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="52" x="373" y="95.864">RUIAN</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="400.5" y="115.518"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="400.5" y="134.5859"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="298" x="250" y="153.6538">https://vdp.cuzk.cz/vymenny_format/soucasna/...</text><!--MD5=[6a1d81a1c0e33a017cfb5096ac2e28c5]
+entity obeccsv--><rect fill="#1168BD" height="41.792" style="stroke:#3C7FC0;stroke-width:1.5;" width="109" x="454.5" y="245.76"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="89" x="464.5" y="272.864">obec-##.csv</text><!--MD5=[8fee30ade171ef5acf6d54efd9d089ad]
+entity statak--><rect fill="#1168BD" height="98.9958" style="stroke:#3C7FC0;stroke-width:1.5;" width="268" x="593" y="68.76"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="163" x="645.5" y="95.864">Český statistický úřad</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="728.5" y="115.518"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="728.5" y="134.5859"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="248" x="603" y="153.6538">https://vdb.czso.cz/vdbvo2/faces/xmlexp</text><!--MD5=[30e0ae133bf5ef12169f56186db33367]
+entity towns--><rect fill="#1168BD" height="41.792" style="stroke:#3C7FC0;stroke-width:1.5;" width="119" x="630.5" y="245.76"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="99" x="640.5" y="272.864">XXXXXX.dmp</text><!--MD5=[81275f1924435da1c884fa7fbdb98b6a]
+entity zujs--><rect fill="#1168BD" height="41.792" style="stroke:#3C7FC0;stroke-width:1.5;" width="76" x="343" y="245.76"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="56" x="353" y="272.864">zujs.csv</text><!--MD5=[5320b0ad93e3b1e29e009c8a9e1318fe]
+entity ini--><rect fill="#1168BD" height="41.792" style="stroke:#3C7FC0;stroke-width:1.5;" width="96" x="265" y="408.76"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="76" x="275" y="435.864">config.INI</text><!--MD5=[391dc5a769e4e5245ec635f57a6006c5]
+entity mgraph--><rect fill="#438DD5" height="96.272" style="stroke:#3C7FC0;stroke-width:1.5;" width="152" x="422" y="381.76"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="69" x="463.5" y="408.864">generate</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="38" x="479" y="426.3801">[python]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="499.5" y="444.8621"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="435" y="463.93">generate.py config.ini</text><!--MD5=[324fd099279b339abc45598a231585fa]
+link ruian to obeccsv--><path d="M435.63,168.04 C453.48,191.82 474.26,219.49 489.13,239.3 " fill="none" id="ruian-to-obeccsv" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="493.94,245.7,491.54,237.5,486.74,241.1,493.94,245.7" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="42" x="472" y="211.5881">HTTP(S)</text><!--MD5=[aacede016d674b8625913cf48778ce7c]
+link statak to towns--><path d="M714.68,168.04 C708.83,191.2 702.05,218.05 697.08,237.74 " fill="none" id="statak-to-towns" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="695.07,245.7,699.9359,238.677,694.1182,237.2092,695.07,245.7" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="42" x="708" y="211.5881">HTTP(S)</text><!--MD5=[c0356335fab3b1e0c651ffa433b4905e]
+link ruian to zujs--><path d="M393.01,168.04 C390.16,191.2 386.86,218.05 384.44,237.74 " fill="none" id="ruian-to-zujs" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="383.46,245.7,387.4224,238.1304,381.4681,237.3914,383.46,245.7" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="42" x="390" y="211.5881">HTTP(S)</text><!--MD5=[ddb7661ae5ad85974b481b28aa7b63e8]
+link obeccsv to mgraph--><path d="M507.63,287.83 C506.17,309.17 503.8,343.87 501.78,373.49 " fill="none" id="obeccsv-to-mgraph" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="501.22,381.7,504.7566,373.9223,498.7705,373.5147,501.22,381.7" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="24" x="507" y="339.5881">load</text><!--MD5=[62c60e36299bece5a185b3fbc641ad38]
+link towns to mgraph--><path d="M666.07,287.83 C639.75,309.9 596.39,346.26 560.31,376.51 " fill="none" id="towns-to-mgraph" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="554.12,381.7,562.1766,378.8555,558.3197,374.2594,554.12,381.7" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="24" x="634" y="331.5881">load</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="34" x="629" y="347.9322">[towns]</text><!--MD5=[df0d78780b3bbd618544c5460a3aa469]
+link zujs to mgraph--><path d="M395.58,287.83 C411.36,309.53 437.17,345.06 458.94,375.01 " fill="none" id="zujs-to-mgraph" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="463.8,381.7,461.5144,373.4674,456.6647,377.0002,463.8,381.7" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="24" x="441" y="339.5881">load</text><!--MD5=[09589ee3a4c6555cd27b7a3940902e01]
+link households to pois--><!--MD5=[2337ccb265756e64ab03ce9ddd0ac029]
+link pois to schools--><!--MD5=[f3ea9bddf2de3d8d18adffdcb80f0b44]
+link static to mgraph--><path d="M213.0642,145.837 C213.0927,145.9185 213.1213,146 213.1499,146.0816 C213.3787,146.7343 213.6115,147.3909 213.8481,148.0506 C214.3215,149.3699 214.8103,150.7012 215.3137,152.0367 C217.3275,157.3788 219.575,162.7875 222,167.76 C249.78,224.71 255.23,241.93 299,287.76 C332.86,323.22 376.81,355.44 414.78,380.11 " fill="none" id="static-to-mgraph" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="421.8,384.63,416.695,377.7788,413.4489,382.8248,421.8,384.63" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="24" x="300" y="271.5881">load</text><!--MD5=[0f5dc7d3e098f45d527425fb03236804]
+link ini to mgraph--><path d="M361.12,429.76 C377.19,429.76 395.59,429.76 413.58,429.76 " fill="none" id="ini-to-mgraph" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="421.8,429.76,413.8,426.76,413.8,432.76,421.8,429.76" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="24" x="379.5" y="422.5881">load</text><!--MD5=[dd8c20f5519ea3770b30bc787350ac39]
+link p to e--><!--MD5=[975be98ed7adf3d2285e2c512d0baedc]
+link mgraph to graph_file--><path d="M498,477.95 C498,491.5825 498,506.9725 498,522.4294 C498,530.1578 498,537.903 498,545.4535 C498,546.3973 498,547.3381 498,548.2754 C498,548.7441 498,549.2119 498,549.6788 " fill="none" id="mgraph-to-graph_file" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="498,549.6788,501,541.6788,495,541.6788,498,549.6788" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="25" x="499" y="521.5881">save</text><!--MD5=[1591913ae69ff7328bb3d5a1da2d4dfc]
+link static to statak--><!--MD5=[89b1e32f0ba80c4c5dd8f4f3e7e4ff1d]
+@startuml Data flow
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+HIDE_STEREOTYPE()
+
+System(ruian, "RUIAN", "https://vdp.cuzk.cz/vymenny_format/soucasna/...")
+System(obeccsv, "obec-##.csv")
+Rel(ruian, obeccsv, "HTTP(S)")
+
+System(statak, "Český statistický úřad","https://vdb.czso.cz/vdbvo2/faces/xmlexp")
+System(towns, "XXXXXX.dmp")
+Rel(statak, towns, "HTTP(S)")
+System(zujs, "zujs.csv")
+
+Boundary(static, "Static files") {
+System(households, "households.csv")
+System(pois, "pois_cz_loc.csv")
+System(schools, "schools_cz_loc.csv")
+}
+
+System(ini, "config.INI")
+
+
+
+Rel(ruian, zujs, "HTTP(S)")
+
+
+Container(mgraph, "generate","python","generate.py config.ini")
+
+Rel(obeccsv, mgraph, "load")
+Rel(towns, mgraph, "load", towns)
+Rel(zujs, mgraph, "load")
+
+
+Lay_D(households, pois)
+Lay_D(pois, schools)
+
+Rel(static, mgraph, load)
+
+Rel_R(ini, mgraph, "load")
+
+Boundary(graph_file, "Graph files"){
+System(e, "e.csv")
+System(p, "p.csv")
+System(edges, "edges.csv")
+System(objects, "objects.csv")
+Lay_L(e,p)
+}
+
+Rel_D(mgraph,graph_file, "save")
+Lay_L(statak, static)
+
+@enduml
+
+@startuml Data flow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+
+rectangle "==RUIAN\n\n https://vdp.cuzk.cz/vymenny_format/soucasna/..." <<system>> as ruian 
+rectangle "==obec-##.csv" <<system>> as obeccsv 
+ruian - ->> obeccsv : **HTTP(S)**
+
+rectangle "==Český statistický úřad\n\n https://vdb.czso.cz/vdbvo2/faces/xmlexp" <<system>> as statak 
+rectangle "==XXXXXX.dmp" <<system>> as towns 
+statak - ->> towns : **HTTP(S)**
+rectangle "==zujs.csv" <<system>> as zujs 
+
+rectangle "==Static files" <<boundary>> as static  {
+rectangle "==households.csv" <<system>> as households 
+rectangle "==pois_cz_loc.csv" <<system>> as pois 
+rectangle "==schools_cz_loc.csv" <<system>> as schools 
+}
+
+rectangle "==config.INI" <<system>> as ini 
+
+
+
+ruian - ->> zujs : **HTTP(S)**
+
+
+rectangle "==generate\n//<size:12>[python]</size>//\n\n generate.py config.ini" <<container>> as mgraph 
+
+obeccsv - ->> mgraph : **load**
+towns - ->> mgraph : **load**\n//<size:12>[towns]</size>//
+zujs - ->> mgraph : **load**
+
+
+households -[hidden]D- pois
+pois -[hidden]D- schools
+
+static - ->> mgraph : **load**
+
+ini -RIGHT->> mgraph : **load**
+
+rectangle "==Graph files" <<boundary>> as graph_file {
+rectangle "==e.csv" <<system>> as e 
+rectangle "==p.csv" <<system>> as p 
+rectangle "==edges.csv" <<system>> as edges 
+rectangle "==objects.csv" <<system>> as objects 
+e -[hidden]L- p
+}
+
+mgraph -DOWN->> graph_file : **save**
+statak -[hidden]L- static
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 14:40:07 CEST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
