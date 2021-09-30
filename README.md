@@ -2,7 +2,7 @@
 
 Model M is an agent-based epidemic model for COVID-19 computational experiments on realistic multi-graph social
 networks. It allows to simulate projections of main epidemic indicators with respect to various interventions. These
-include lockdowns, closures of different contact layers (leisure, schools, etc), social distancing, testing and
+include lockdowns, closures of different contact layers (leisure, schools, etc.), social distancing, testing and
 quarantine, contact tracing, and vaccination.
 
 <!--- PDF BREAK -->
@@ -103,27 +103,27 @@ There are several INIs provided so that you can base your experiments on these s
 |[hodoninsko.ini](config/hodoninsko.ini)| Hodonínsko region (57k persons)|
 |[lounsko.ini](config/lounsko.ini)| Lounsko region (42k persons)|
 
-<sup>1</sup> All the intermediate outputs of all scripts for `demo.ini` are included in this repo. Therefore you do not
+<sup>1</sup> All the intermediate outputs of all scripts for `demo.ini` are included in this repository. Therefore you do not
 need to run the scripts in the described order.
 
-<sup>2</sup> Graph files of `papertown.ini` are included into this repository. It is not possible to generate this graph
+<sup>2</sup> Graph files of `papertown.ini` are included in this repository. It is not possible to generate this graph
 from scratch again by `generate.py` script since several non-public data sources were used for its creation. This graph
 was used for experiments presented in our preprints.
 
 ### 1. Generation of a graph
 
-Unless you use `papertown` or `demo` graph that are included in this repo you have to generate your graph. For example:
+Unless you use `papertown` or `demo` graph that are included in this repository, you have to generate your graph. For example:
 
 ```console
 python generate.py ../config/hodoninsko.ini 
 ```
 
-would generate a m-graph for Hodonínsko region. For further info please refer to the documentation of
+would generate a m-graph for Hodonínsko region. For further information please refer to the documentation of
 the [generate](doc/generate.md) command.
 
 ### 2. Running your experiments
 
-Run your experiment. Note that the first time you run it, the graph is loaded from CSV files, which takes minutes.
+Run your experiment. Note that the first time you run it, the graph is loaded from CSV files, which takes several minutes.
 
 + If you wish to run one simulation only, use `run_experiment.py`:
 
@@ -140,8 +140,8 @@ in your [INI file](doc/inifile.md#task). The INI files provided use `data/output
 python run_multi_experiment.py -R ../config/random_seeds.txt --n_repeat=100 --n_jobs=4 ../config/hodoninsko.ini my_experiment
 ```
 
-By default it produces a ZIP file with the resulting history files. You can change output_type to FEATHER and the result
-will be stored as one data frame in the feather format. The ZIP file is stored in the directory specified
+By default it produces a ZIP file with the resulting history files. You can change `output_type` to FEATHER and the result
+will be stored as one data frame in the feather format. The resulting file is stored in the directory specified
 by `output_dir` and it is named `history_my_experiment.zip` or `history_my_experiment.feather`.
 
 ### 3. Result visualisation

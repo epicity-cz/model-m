@@ -68,7 +68,7 @@ Options:
 python run_multi_experiment.py -R ../config/random_seeds.txt --n_repeat=100 --n_jobs=4 ../config/hodoninsko.ini my_experiment
 ```
 
-By default it produces a ZIP file with the resulting history files. You can change output_type to FEATHER and the result
+By default it produces a ZIP file with the resulting history files. You can change `output_type` to FEATHER and the result
 will be stored as one data frame in the feather format.
 
 In this case, you can provide the whole list of random seeds. Use option `-R random_seeds.txt`, where `random_seeds.txt`

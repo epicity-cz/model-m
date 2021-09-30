@@ -31,7 +31,7 @@ contact_tracing_filename = contact_tracing
 contact_tracing_name = CRLikePolicy
 ```
 
-The setup enables you to provide various calendar to control model parameters ([POLICY_SETUP](inifile.md#policy-setup)). Also you define which subpolicies should be run. They can be either included in `policy_calendar` or, if they should run the whole time, specified as `sub_policies`.  
+The setup enables you to provide various calendars to control model parameters ([POLICY_SETUP](inifile.md#policy-setup)). Also you define which subpolicies should be run. They can be either included in `policy_calendar` or, if they should run the whole time, specified as `sub_policies`.  
 
 
 ## Self-isolation 

@@ -230,7 +230,7 @@ class CustomPolicy(Policy):
         #orig_beta= self.model.init_kwargs["beta"]
         #orig_beta_A = self.model.init_kwargs["beta_A"]
 
-        # assumes betas are uniform, fixme
+        # assumes betas are uniform
         new_beta = (1-self.reduction_coef2*masks) * \
             self.model.beta_in_family[0][0]
         new_beta_A = (1-self.reduction_coef2*masks) * \

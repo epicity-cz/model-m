@@ -1,6 +1,6 @@
 # MODEL SPECIFICATION
 
-For full model description please refer to the preprint:
+For the full model description please refer to the preprint:
 
 **Model-M: An agent-based epidemic model of a middle-sized municipality**<br>
 Ludek Berec, Tomas Diviak, Ales Kubena, Rene Levinsky, Roman Neruda, Gabriela Suchoparova, Josef Slerka, Martin Smid,
@@ -38,7 +38,7 @@ model.)
 
 ![state_diagram](fig/states_diagram.svg)
 
-+ S -> E happens after infectious contact, depends on contact graph and model parameter *beta* (*beta* specified
++ S -> E happens after an infectious contact, depends on the contact graph and model parameter *beta* (*beta* specified
   in [INI FILE](inifile.md))
 + other transitions happen after the time assigned to stay in given state passes (times are generated based on
   probabilities specified in *durations_file*, see [INI FILE](inifile.md))
@@ -47,12 +47,10 @@ model.)
 
 # Contact graph
 
-short paragraph about meaning of node, edge, probability of edge, intesity of edge, etc.
-
 The contact graph is a multi-graph **V = (N, E)**, where **N** is a set of nodes and **E** is a set of edges. An edge
-represents a possible contact between the two nodes. There can be multiple edges for each tuple **(u, v)**.
+represents a possible contact between the two nodes (individuals). There can be multiple edges for each tuple **(u, v)**.
 
-An edge is defined by **(u, v, t, p, i)**, where **u** and **v** are the nodes connected by an edge, **t** contains an
+An edge is defined by **(u, v, t, p, i)**, where **u** and **v** are the nodes connected by the edge, **t** contains an
 edge type, **p** is a probability of a contact and **i** is an intesity of this contact.
 
 There are several types of edges, each type has its weight.
@@ -75,12 +73,10 @@ filename = customised_policy
 name = CustomPolicy
 ```
 
-The configuration is defined in [POLICY_SETUP](policy.md#custom-policy) section of INI file.
+The configuration is defined in the [POLICY_SETUP](policy.md#custom-policy) section of INI file.
 
-This policy also runs sub-policies, which can be [self-isolation](policy.md#self-isolation)
-, [testing](policy.md#testing) or [contact-tracing](policy.md#contact-tracing).
+This policy also runs sub-policies, which can be [self-isolation](policy.md#self-isolation), [testing](policy.md#testing) or [contact-tracing](policy.md#contact-tracing).
 
 Self-isolation is responsible for isolating a portion of individuals that exhibit symptoms. The *testing* policy is
-responsible for testing, and the *contact-tracing* policy enhances it by contact tracing, both of them put the nodes to
-isolation and quaratine. Details and exact algorithms can be found in
+responsible for testing, and the *contact-tracing* policy enhances it by contact tracing, both of them put the nodes into isolation and quaratine. Details and exact algorithms can be found in
 the [preprint](https://doi.org/10.1101/2021.05.13.21257139).

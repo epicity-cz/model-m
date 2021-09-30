@@ -1,5 +1,5 @@
 # Download gold data
-In this section we describe how to download the 'COVID-19 epidemy in czech
+In this section we describe how to download the 'COVID-19 epidemy in Czech
 regions' dataset. The downloaded file can be used for hyper-parameter fitting.
 
 To download data and create a file for fitting in one step, use the following bash

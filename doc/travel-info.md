@@ -16,6 +16,7 @@ This is the recomended option when you do not have explicitly defined your trave
 ![](fig/travel-info-delaunay-sparse.svg)
 
 #### `TravelInfoFile`
-Traveling network is fully explicitly defined in csv file. By default the travel network is define by file `<BASE_DIR>/config/gen_graph/<NAME>_transport.csv`
+Traveling network is fully explicitly defined in csv file. By default the travel network is define by file `<BASE_DIR>/config/gen_graph/<NAME>_transport.csv`.
+
 ![](fig/travel-info-file.svg)
 

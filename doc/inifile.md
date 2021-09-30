@@ -1,6 +1,6 @@
 # INI FILE
 
-All the user adjustable configuration is defined by an INI file. The INI file is parsed by python`s
+All the user adjustable configuration is defined by an INI file. The INI file is parsed by python's
 module [configparser](https://docs.python.org/3/library/configparser.html) and follows the common INI file syntax.
 
 This document lists all the sections and their keys.
