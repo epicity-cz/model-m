@@ -116,19 +116,16 @@ def demo(filename, test_id=None, model_random_seed=42, use_policy=None, print_in
 
 
 @click.command()
-@click.option('--const-random-seed/--no-random-seed', ' /-r', default=True, help="Use -r to run with different random seed each time." )
-@click.option('--user-random-seeds', '-R', default=None, help="File with random seeds.") 
-@click.option('--print_interval',  default=1, help="How often to print the info message.")
-@click.option('--n_repeat',  default=1, help="Number repetition of the experiment.")
-@click.option('--n_jobs', default=1, help="Number of processes.") 
+@click.option('--const-random-seed/--no-random-seed', ' /-r', default=True)
+@click.option('--user-random-seeds', '-R', default=None) 
+@click.option('--policy', '-p', default=None)
+@click.option('--print_interval',  default=1)
+@click.option('--n_repeat',  default=1)
+@click.option('--n_jobs', default=1) 
 @click.argument('filename', default="example.ini")
 @click.argument('test_id', default="")
-def test(const_random_seed,  user_random_seeds,  print_interval, n_repeat, n_jobs, filename, test_id):
-    """ Run the experiment given by the config file FILENAME.                                                                                
-    \b
-    FILENAME  config file with the experiment definition                                                                                 
-    TEST_ID   ID is appended to  names of all output files   
-    """
+def test(const_random_seed,  user_random_seeds, policy, print_interval, n_repeat, n_jobs, filename, test_id):
+    """ Run the demo test inside the timeit """
 
     random_seed = 42 if const_random_seed else random.randint(0, 10000)
     if user_random_seeds is not None:
@@ -139,7 +136,7 @@ def test(const_random_seed,  user_random_seeds,  print_interval, n_repeat, n_job
             random_seed = random_seeds 
     
     def demo_fce(): return demo(filename, test_id,
-                                model_random_seed=random_seed, use_policy=None, print_interval=print_interval, 
+                                model_random_seed=random_seed, use_policy=policy, print_interval=print_interval, 
                                 n_repeat=n_repeat, n_jobs=n_jobs)
     print(timeit.timeit(demo_fce, number=1))
 

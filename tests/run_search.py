@@ -36,35 +36,22 @@ def load_gold_data(csv_path, first_n_zeros=0, data_column=2):
     return result
 
 
-
 @click.command()
-@click.option('--set-random-seed/--no-random-seed', ' /-r', default=True,
-              help="Random seed to set for the experiment. If `run_n_times` > 1, the seed is incremented by i for "
-                   "the i-th run.")
+@click.option('--set-random-seed/--no-random-seed', ' /-r', default=True)
+@click.option('--policy', '-p', default=None)
 @click.option('--n_jobs', default=1)
-@click.option('--run_n_times', default=1, help="Number of times to run the experiment with specific hyperparameter "
-                                               "settings.")
-@click.option('--first_n_zeros', default=5, help="Shifts gold data by this value - the first day is incremented"
-                                                 " by `first_n_zeros`, and the data is padded with `first_n_zeros` days"
-                                                 " with the gold values set to zero.")
-@click.option('--data_column', default='2', help="The index of the column to use from the gold data DataFrame - can be "
-                                                 "both int or string column name.")
-@click.option('--return_func', default='rmse', help="Loss function.")
-@click.option('--fit_data', default='../data/litovel.csv',
-              help="A DataFrame that has a column named 'datum' and contains the gold data in the column `data_column`.")
-@click.option('--log_csv_file/--no_log_csv', '-l/ ', default=False)
+@click.option('--run_n_times', default=1)
+@click.option('--first_n_zeros', default=5)
+@click.option('--data_column', default='2')
+@click.option('--return_func', default='rmse')
+@click.option('--fit_data', default='../data/litovel.csv')
+@click.option('--log_csv_file/--no_log_csv','-l/ ', default=False)
 @click.option('--out_dir',  default=f'./search_{datetime.datetime.now().strftime("%Y-%m-%d_%H%M%S")}')
-@click.argument('filename', default="example.ini")
+@click.argument('filename', default="town0.ini")
 @click.argument('hyperparam_filename', default="example_gridsearch.json")
-def run(set_random_seed,  n_jobs, run_n_times, data_column, first_n_zeros, return_func, fit_data, out_dir,
+def run(set_random_seed, policy, n_jobs, run_n_times, data_column, first_n_zeros, return_func, fit_data, out_dir,
         log_csv_file, filename, hyperparam_filename):
-    """
-    Runs hyperparameter search.
 
-    \b
-    FILENAME File with the model config.
-    HYPERPARAM_FILENAME Config file of the hyperparameter search. 
-    """
     random_seed = 42 if set_random_seed else random.randint(0, 10000)
 
     cf = ConfigFile()
@@ -88,7 +75,7 @@ def run(set_random_seed,  n_jobs, run_n_times, data_column, first_n_zeros, retur
             filename,
             hyperparam_filename,
             model_random_seed=random_seed,
-            use_policy=None,
+            use_policy=policy,
             n_jobs=n_jobs,
             n_days=len(gold_data),
             return_func=return_func,

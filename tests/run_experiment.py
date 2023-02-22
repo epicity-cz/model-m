@@ -111,19 +111,15 @@ def demo(filename, test_id=None, model_random_seed=42, use_policy=None, print_in
 
 
 @click.command()
-@click.option('--const-random-seed/--no-random-seed', ' /-r', default=True, help="Use -r to run with different random seed each time.")
-@click.option('--user_random_seed', '-R', default=None, help="User defined random seed.")
-@click.option('--print_interval',  default=1, help="How often to print the info message.")
-@click.option('--n_repeat',  default=1, help="Number of repetition of the experiment.")
+@click.option('--const-random-seed/--no-random-seed', ' /-r', default=True)
+@click.option('--user_random_seed', '-R', default=None)
+@click.option('--policy', '-p', default=None)
+@click.option('--print_interval',  default=1)
+@click.option('--n_repeat',  default=1)
 @click.argument('filename', default="example.ini")
 @click.argument('test_id', default="")
-def test(const_random_seed, user_random_seed,  print_interval, n_repeat, filename, test_id):
-    """ Run the experiment given by the config file FILENAME.
-
-    \b
-    FILENAME  config file with the experiment definition 
-    TEST_ID   ID is appended to  names of all output files
-    """
+def test(const_random_seed, user_random_seed, policy, print_interval, n_repeat, filename, test_id):
+    """ Run the demo test inside the timeit """
 
     if user_random_seed is not None:
         random_seed = int(user_random_seed)
@@ -132,7 +128,7 @@ def test(const_random_seed, user_random_seed,  print_interval, n_repeat, filenam
 
     print(f"ACTION LOG: random seed {random_seed}")
     def demo_fce(): return demo(filename, test_id,
-                                model_random_seed=random_seed, use_policy=None, print_interval=print_interval, n_repeat=n_repeat)
+                                model_random_seed=random_seed, use_policy=policy, print_interval=print_interval, n_repeat=n_repeat)
     print(timeit.timeit(demo_fce, number=1))
 
 

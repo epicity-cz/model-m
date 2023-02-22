@@ -7,5 +7,3 @@ seaborn
 scikit-learn
 click
 networkx
-sklearn
-cma

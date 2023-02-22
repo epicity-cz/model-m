@@ -409,6 +409,87 @@ class W80QuarantinePolicy(EvaQuarantinePolicy):
         super().__init__(graph, model)
         self.riskiness = get_riskiness(0.8, 0.8, 0.8)
 
+#####################################
+class Family10(EvaQuarantinePolicy):
+    def __init__(self, graph, model):
+        super().__init__(graph, model)
+        self.riskiness = get_riskiness(0.1, 0, 0)
+
+class Family30(EvaQuarantinePolicy):
+    def __init__(self, graph, model):
+        super().__init__(graph, model)
+        self.riskiness = get_riskiness(0.3, 0, 0)
+
+class Family50(EvaQuarantinePolicy):
+    def __init__(self, graph, model):
+        super().__init__(graph, model)
+        self.riskiness = get_riskiness(0.5, 0, 0)
+ 
+class Family70(EvaQuarantinePolicy):
+    def __init__(self, graph, model):
+        super().__init__(graph, model)
+        self.riskiness = get_riskiness(0.7, 0, 0)
+
+class Family90(EvaQuarantinePolicy):
+    def __init__(self, graph, model):
+        super().__init__(graph, model)
+        self.riskiness = get_riskiness(0.9, 0, 0)
+#####################################
+
+#####################################
+class Leas10(EvaQuarantinePolicy):
+    def __init__(self, graph, model):
+        super().__init__(graph, model)
+        self.riskiness = get_riskiness(1.0, 1.0, 0.1)
+
+class Leas30(EvaQuarantinePolicy):
+    def __init__(self, graph, model):
+        super().__init__(graph, model)
+        self.riskiness = get_riskiness(1.0, 1.0, 0.3)
+
+class Leas50(EvaQuarantinePolicy):
+    def __init__(self, graph, model):
+        super().__init__(graph, model)
+        self.riskiness = get_riskiness(1.0, 1.0, 0.5)
+ 
+class Leas70(EvaQuarantinePolicy):
+    def __init__(self, graph, model):
+        super().__init__(graph, model)
+        self.riskiness = get_riskiness(1.0, 1.0, 0.7)
+
+class Leas90(EvaQuarantinePolicy):
+    def __init__(self, graph, model):
+        super().__init__(graph, model)
+        self.riskiness = get_riskiness(1.0, 1.0, 0.9)
+#####################################
+
+#####################################
+class Work10(EvaQuarantinePolicy):
+    def __init__(self, graph, model):
+        super().__init__(graph, model)
+        self.riskiness = get_riskiness(1.0, 0.1, 0)
+
+class Work30(EvaQuarantinePolicy):
+    def __init__(self, graph, model):
+        super().__init__(graph, model)
+        self.riskiness = get_riskiness(1.0, 0.3, 0)
+
+class Work50(EvaQuarantinePolicy):
+    def __init__(self, graph, model):
+        super().__init__(graph, model)
+        self.riskiness = get_riskiness(1.0, 0.5, 0)
+ 
+class Work70(EvaQuarantinePolicy):
+    def __init__(self, graph, model):
+        super().__init__(graph, model)
+        self.riskiness = get_riskiness(1.0, 0.7, 0)
+
+class Work90(EvaQuarantinePolicy):
+    def __init__(self, graph, model):
+        super().__init__(graph, model)
+        self.riskiness = get_riskiness(1.0, 0.9, 0)
+#####################################
+
 
 def _is_R(node_ids, memberships):
 

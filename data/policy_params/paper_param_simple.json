@@ -1,0 +1,7 @@
+{"1": [["set", "theta_Is", 0.001]], 
+"10": [["set", "theta_Is", 0.005]], 
+"15": [["set", "theta_Is", 0.01]], 
+"20": [["set", "theta_Is", 0.2]], 
+"23": [["*", "beta", "beta_reduction"], 
+  	["*", "beta_A", "beta_reduction"]]
+}

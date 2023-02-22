@@ -21,7 +21,7 @@ class WeeColdPolicy(Policy):
         # depo of quarantined nodes 
         self.depo = Depo(graph.number_of_nodes)        
         self.stopped = False
-        self.threshold = 0.5
+        self.threshold = 0.7
         self.duration = 7
         self.coefs = QUARANTINE_COEFS
 
