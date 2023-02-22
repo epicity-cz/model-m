@@ -1,5 +1,8 @@
 # model-m :mask:
 Model of an imaginary town 
+This version was used for experiments in the paper, but we recommend to use the branch master 
+or relase v1.0.
+
 
 ## Requirements 
 
